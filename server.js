@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.status(200).send("My First express server");
 });
 
-app.get("/register", (req , res) =>{
+app.get("/registers", (req , res) =>{
     res.status(200).send("My register page")
 })
 const Port = 5000;
